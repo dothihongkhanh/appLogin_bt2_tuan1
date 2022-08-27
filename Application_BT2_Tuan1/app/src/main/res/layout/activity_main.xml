@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/logo"
+            android:layout_margin="30dp"></ImageView>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="User Name"
+            android:ems="15"
+            android:textSize="8pt"
+            android:textColor="#0066CC"
+            android:background="@drawable/boder1"
+            android:paddingLeft="20dp"></EditText>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="Pass Word"
+            android:ems="15"
+            android:inputType="textPassword"
+            android:textSize="8pt"
+            android:textColor="#0066CC"
+            android:background="@drawable/boder3"
+            android:paddingLeft="20dp"></EditText>
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:text="LOGIN ME"
+            android:layout_margin="30dp"
+            android:textColor="@color/white"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            android:background="#0066CC"></Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lost password?"
+            android:layout_marginTop="120dp"
+            android:textSize="8pt"
+            android:textColor="#0066CC"></TextView>
+    </LinearLayout>
+
+</RelativeLayout>

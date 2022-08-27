@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:textColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#0066CC"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="20dp"
+                android:text="Back"
+                android:textColor="@color/white"
+                android:textSize="8pt"></TextView>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="75dp"
+                android:text="Profile"
+                android:textColor="@color/white"
+                android:textSize="8pt"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0066CC"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/logo_profile"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đỗ Thị Hồng Khánh - 2050531200212"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="10pt"></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="125"
+                    android:textColor="@color/white"
+                    android:textSize="10pt"></TextView>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="250"
+                    android:textColor="@color/white"
+                    android:textSize="10pt"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Friends"
+                    android:textColor="@color/white"
+                    android:textSize="10pt"></TextView>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="Followers"
+                    android:textColor="@color/white"
+                    android:textSize="10pt"></TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/boder1"
+                android:paddingLeft="20dp"
+                android:text="email: khanh@gmail.com"
+                android:textColor="#0066CC"
+                android:textSize="10pt"></TextView>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/boder2"
+                android:paddingLeft="20dp"
+                android:text="phone: 0123495678"
+                android:textColor="#0066CC"
+                android:textSize="10pt"></TextView>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/boder2"
+                android:paddingLeft="20dp"
+                android:text="skype: me009"
+                android:textColor="#0066CC"
+                android:textSize="10pt"></TextView>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/boder3"
+                android:paddingLeft="20dp"
+                android:text="web: cssauthor.com/"
+                android:textColor="#0066CC"
+                android:textSize="10pt"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
